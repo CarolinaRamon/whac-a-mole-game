@@ -1,0 +1,27 @@
+body {
+	background-color: violet;
+	text-align: center;
+	color: white;
+	font-family: 'Indie Flower', Arial, Sans-serif, 'Times New Roman';
+	font-size: 1.5em;
+}
+
+.grid {
+	width: 312px;
+	height: 312px;
+	display: flex;
+	flex-wrap: wrap;
+    margin: auto;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: solid black 2px;
+}
+
+.mole {
+	background-image: url("./images/mole.png");
+    background-repeat: no-repeat;
+	background-size: contain;
+}
